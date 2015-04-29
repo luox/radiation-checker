@@ -1,0 +1,31 @@
+{
+  "uuid": "c0e472b0-a03a-43c3-a29f-8565d07ea528",
+  "shortName": "Tutorial1",
+  "longName": "Tutorial1",
+  "companyName": "rossi",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "KEY_NAME": 0,
+    "KEY_DISTANCE": 1,
+    "KEY_DATE": 2,
+    "KEY_CURRENT": 3,
+    "KEY_AVERAGE": 4
+  },
+  "capabilities": [ "location" ],
+  "resources": {
+    "media": [
+      {
+        "type":"font",
+        "name":"FONT_PERFECT_DOS_20",
+        "file":"fonts/perfect-dos-vga.ttf",
+        "compatibility": "2.7"
+      }
+    ]
+  }
+}
